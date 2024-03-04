@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\icons8-add-48.png" />
+    <None Remove="Icons\icons8-edit-50.png" />
+    <None Remove="Icons\icons8-error-64.png" />
+    <None Remove="Icons\icons8-garbage-48.png" />
+    <None Remove="Icons\icons8-gears-50.png" />
+    <None Remove="Icons\icons8-offline-48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\icons8-add-48.png" />
+    <Resource Include="Icons\icons8-edit-50.png" />
+    <Resource Include="Icons\icons8-error-64.png" />
+    <Resource Include="Icons\icons8-garbage-48.png" />
+    <Resource Include="Icons\icons8-gears-50.png" />
+    <Resource Include="Icons\icons8-offline-48.png" />
+  </ItemGroup>
+
+</Project>
