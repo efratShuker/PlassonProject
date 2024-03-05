@@ -1,6 +1,9 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Data;
 using System.Windows.Input;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace MachineStatusTracker
 {
