@@ -1,4 +1,6 @@
-﻿namespace MachineStatusTracker
+using System;
+
+namespace MachineStatusTracker
 {
     public class NewMachineTicket:MachineTicket
     {
